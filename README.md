@@ -1,10 +1,9 @@
 # Podcast-Clipper
-
-#####currently in development phase
+(currently in development phase)
 
 This project aims to build a production-ready SaaS application that transforms long podcasts into viral short-form clips optimized for YouTube Shorts and TikTok. It integrates AI-driven transcription, active speaker detection, and LLM-based highlight extraction to automatically detect the most engaging podcast moments and crop them precisely to the speaker’s frame. The backend leverages FastAPI, Modal, and Inngest for serverless GPU-accelerated processing and queue-based scalability, while the frontend is powered by Next.js 15, React, TypeScript, and ShadCN UI. A Stripe-based credit system manages user payments, and AWS S3 handles secure media storage. End-to-end automation—from video upload to rendered clip delivery—minimizes manual editing, easing repetitive content-creation tasks by over 90 %. The result is a seamless, scalable platform combining AI, cloud compute, and web engineering to make professional-grade video editing accessible to everyone.
 
-###⚙️ Implementation Steps (Work in Progress)
+Implementation Steps (Work in Progress):
 
 1.Project Setup: Initialize monorepo with Next.js 15 frontend and FastAPI backend; configure environment variables.
 
